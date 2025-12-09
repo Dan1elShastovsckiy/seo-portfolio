@@ -109,7 +109,10 @@ export const content = {
       modalTitle: "Contact Me",
       modalSubtitle: "I usually respond within 1 hour via Telegram/WhatsApp.",
       techStack: "Tech Stack",
-      keyResults: "Key Results"
+      keyResults: "Key Results",
+      contactSectionTitle: "Get in Touch",
+      contactSectionSubtitle: "I usually respond within 1 hour via Telegram/WhatsApp.",
+      orEmail: "Or email"
     },
     seoSection: seoTextEn,
     experience: [
@@ -341,7 +344,10 @@ export const content = {
       modalTitle: "Связаться со мной",
       modalSubtitle: "Обычно отвечаю в течении 1 часа в Телеграм/Ватсап.",
       techStack: "Стек технологий",
-      keyResults: "Результаты"
+      keyResults: "Результаты",
+      contactSectionTitle: "Связаться со мной",
+      contactSectionSubtitle: "Обычно отвечаю в течение 1 часа в Телеграм/Ватсап.",
+      orEmail: "Или на почту"
     },
     seoSection: seoTextRu,
     experience: [

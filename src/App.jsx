@@ -235,6 +235,79 @@ const AboutSeoSection = ({ data }) => {
   );
 };
 
+const HomeContactSection = ({ lang }) => {
+  const t = content[lang];
+  
+  return (
+    <section id="contact-bottom" className="bg-white py-16 px-4 border-t border-gray-100">
+      <div className="max-w-4xl mx-auto text-center">
+        <h2 className="text-3xl font-bold text-gray-900 mb-3">
+          {t.headers.contactSectionTitle}
+        </h2>
+        <p className="text-gray-500 mb-10 text-lg">
+          {t.headers.contactSectionSubtitle}
+        </p>
+
+        {/* Сетка кнопок */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+          {/* WhatsApp */}
+          <a 
+            href={socialLinks.whatsapp} 
+            target="_blank" rel="noreferrer"
+            className="flex flex-col items-center justify-center p-6 rounded-2xl border border-gray-100 bg-gray-50 hover:bg-green-50 hover:border-green-200 hover:shadow-lg transition group"
+          >
+            <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 mb-4 group-hover:scale-110 transition">
+              <MessageCircle size={24} />
+            </div>
+            <div className="font-bold text-gray-900 text-lg group-hover:text-green-700">WhatsApp</div>
+            <div className="text-gray-500">{socialLinks.phoneDisplay}</div>
+          </a>
+
+          {/* Telegram */}
+          <a 
+            href={socialLinks.telegram} 
+            target="_blank" rel="noreferrer"
+            className="flex flex-col items-center justify-center p-6 rounded-2xl border border-gray-100 bg-gray-50 hover:bg-blue-50 hover:border-blue-200 hover:shadow-lg transition group"
+          >
+            <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-500 mb-4 group-hover:scale-110 transition">
+              <Send size={24} />
+            </div>
+            <div className="font-bold text-gray-900 text-lg group-hover:text-blue-600">Telegram</div>
+            <div className="text-gray-500">@switchleveler</div>
+          </a>
+
+          {/* HeadHunter */}
+          <a 
+            href={socialLinks.hh} 
+            target="_blank" rel="noreferrer"
+            className="flex flex-col items-center justify-center p-6 rounded-2xl border border-gray-100 bg-gray-50 hover:bg-red-50 hover:border-red-200 hover:shadow-lg transition group"
+          >
+            <div className="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center text-red-600 mb-4 group-hover:scale-110 transition">
+              <HHIcon /> {/* Убедись, что HHIcon объявлен выше в файле */}
+            </div>
+            <div className="font-bold text-gray-900 text-lg group-hover:text-red-600">HeadHunter</div>
+            <div className="text-gray-500">Resume Profile</div>
+          </a>
+        </div>
+
+        {/* Email отдельно */}
+        <div className="max-w-md mx-auto relative">
+           <div className="absolute inset-0 flex items-center"><span className="w-full border-t border-gray-200"></span></div>
+           <div className="relative flex justify-center text-xs uppercase mb-6"><span className="bg-white px-4 text-gray-400 font-semibold tracking-wider">{t.headers.orEmail}</span></div>
+           
+           <a 
+            href={`mailto:${socialLinks.email}`}
+            className="flex items-center justify-center gap-3 w-full bg-gray-900 text-white py-4 rounded-xl font-bold text-lg hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+          >
+            <Mail size={22} /> {socialLinks.email}
+          </a>
+        </div>
+
+      </div>
+    </section>
+  );
+};
+
 // --- PAGES ---
 
 const HomePage = ({ lang }) => {
@@ -332,8 +405,11 @@ const HomePage = ({ lang }) => {
           </div>
         </div>
       </section>
-      {/* --- НОВАЯ SEO СЕКЦИЯ --- */}
+      {/* SEO Текст */}
       <AboutSeoSection data={t.seoSection} />
+      
+      {/* --- НОВАЯ СЕКЦИЯ КОНТАКТОВ --- */}
+      <HomeContactSection lang={lang} />
     </div>
   );
 };
