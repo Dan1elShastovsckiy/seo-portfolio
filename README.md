@@ -39,8 +39,7 @@ Designed for Developers and SEO Specialists who need a fast, responsive, and sea
 ---
 
 ## 📸 Screenshots
-
-*(Add a screenshot of your main page here)*
+![alt text](public/assets/preview.png)
 
 ![Portfolio Preview](./public/assets/preview.png)
 
@@ -50,20 +49,21 @@ Designed for Developers and SEO Specialists who need a fast, responsive, and sea
 
 ### 1. Clone the repository
 
-```bash
+
 git clone https://github.com/your-username/seo-portfolio.git
 cd seo-portfolio
-2. Install dependencies
+### 2. Install dependencies
 code
 Bash
 npm install
-3. Run development server
+### 3. Run development server
 code
 Bash
 npm run dev
 Open http://localhost:5173 in your browser.
-⚙️ Configuration & Customization
-1. Update Content
+
+## ⚙️ Configuration & Customization
+### 1. Update Content
 Edit src/data.js. This file contains all the text, projects, and personal info.
 code
 JavaScript
@@ -77,16 +77,16 @@ export const content = {
   en: { ... }, // English content
   ru: { ... }  // Russian content
 };
-2. Update Images
+### 2. Update Images
 Place your images in public/assets/.
 Avatar: public/assets/images/avatar_default.webp
 Project logos: public/assets/portfolio/...
-3. Configure SEO Domain
+### 3. Configure SEO Domain
 Go to src/SeoHead.jsx and update the DOMAIN constant to ensure canonical and hreflang tags work correctly.
 code
 JavaScript
 const DOMAIN = 'https://your-domain.com';
-📦 Deployment
+## 📦 Deployment
 Nginx (VPS)
 Build the project:
 code
@@ -108,20 +108,10 @@ server {
 }
 Vercel / Netlify
 Just connect your GitHub repository, and it will auto-detect the Vite settings.
-🤝 Contributing
+## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to check issues page.
-📝 License
+## 📝 License
 This project is MIT licensed. You are free to use it as a template for your own portfolio.
-Made with ❤️ by Dan1elShastovsckiy
-code
-Code
----
 
-### Что нужно сделать перед пушем на GitHub:
-
-1.  **Скриншот:** Сделай красивый скриншот главной страницы сайта, назови его `preview.png` и положи в папку `public/assets/`. (В коде README я уже указал путь к нему). Без картинки ридми выглядит скучно.
-2.  **Ссылка на Demo:** В начале файла замени `seo.shastovsky.ru` на свою реальную ссылку, если она изменится.
-3.  **Имя пользователя:** В разделе Clone и Contributing замени `your-username` на свой логин GitHub.
-
-Теперь твой проект выглядит как полноценный Open Source продукт!
+Made with ❤️ by Dan1elShastovscky
