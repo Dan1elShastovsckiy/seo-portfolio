@@ -224,10 +224,10 @@ export const content = {
       },
       {
         id: "shastovsky-app",
-        title: "Flutter Portfolio App",
+        title: "Flutter Portfolio/Blog App",
         category: "Mobile Dev",
         image: "/assets/portfolio/shastovsky_logo.webp",
-        shortDesc: "Personal portfolio project developed on Flutter.",
+        shortDesc: "Personal blog and portfolio project developed on Flutter.",
         contentBlocks: [
           { type: 'text', content: "This website/app is my personal project developed from scratch using Flutter to demonstrate mobile development skills. The source code is open for review." },
           { type: 'image', src: "/assets/portfolio/shastovsky_in1.webp", caption: "App Interface" },
@@ -461,7 +461,7 @@ export const content = {
       },
       {
         id: "shastovsky-app",
-        title: "Flutter приложение-портфолио",
+        title: "Flutter приложение-блог",
         category: "Mobile Dev",
         image: "/assets/portfolio/shastovsky_logo.webp",
         shortDesc: "Личный проект, разработанный на Flutter.",
