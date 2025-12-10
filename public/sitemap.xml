@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Главная страница -->
+  <url>
+    <loc>https://seo.shastovsky.ru/</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en" />
+  </url>
+  <url>
+    <loc>https://seo.shastovsky.ru/en</loc>
+    <lastmod>2025-12-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en" />
+  </url>
+
+  <!-- Проекты -->
+  
+  <!-- SEO Control -->
+  <url>
+    <loc>https://seo.shastovsky.ru/project/seo-control</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/project/seo-control" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en/project/seo-control" />
+  </url>
+
+  <!-- Genotek -->
+  <url>
+    <loc>https://seo.shastovsky.ru/project/genotek</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/project/genotek" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en/project/genotek" />
+  </url>
+
+  <!-- Vitateka -->
+  <url>
+    <loc>https://seo.shastovsky.ru/project/vitateka</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/project/vitateka" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en/project/vitateka" />
+  </url>
+
+  <!-- Credistory -->
+  <url>
+    <loc>https://seo.shastovsky.ru/project/credistory</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/project/credistory" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en/project/credistory" />
+  </url>
+
+  <!-- Leroy Merlin -->
+  <url>
+    <loc>https://seo.shastovsky.ru/project/leroy-merlin</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/project/leroy-merlin" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en/project/leroy-merlin" />
+  </url>
+
+  <!-- Sportmaster -->
+  <url>
+    <loc>https://seo.shastovsky.ru/project/sportmaster</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/project/sportmaster" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en/project/sportmaster" />
+  </url>
+
+  <!-- IEK Group -->
+  <url>
+    <loc>https://seo.shastovsky.ru/project/iek-group</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/project/iek-group" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en/project/iek-group" />
+  </url>
+
+  <!-- Weitnauer -->
+  <url>
+    <loc>https://seo.shastovsky.ru/project/weitnauer</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/project/weitnauer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en/project/weitnauer" />
+  </url>
+
+  <!-- Askona -->
+  <url>
+    <loc>https://seo.shastovsky.ru/project/askona</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/project/askona" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en/project/askona" />
+  </url>
+
+  <!-- RSK Factory -->
+  <url>
+    <loc>https://seo.shastovsky.ru/project/rsk-factory</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/project/rsk-factory" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en/project/rsk-factory" />
+  </url>
+
+  <!-- Sber Vmeste -->
+  <url>
+    <loc>https://seo.shastovsky.ru/project/sber-vmeste</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/project/sber-vmeste" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en/project/sber-vmeste" />
+  </url>
+
+  <!-- Sber Sova -->
+  <url>
+    <loc>https://seo.shastovsky.ru/project/sber-sova</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/project/sber-sova" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en/project/sber-sova" />
+  </url>
+
+  <!-- Maple Tattoo -->
+  <url>
+    <loc>https://seo.shastovsky.ru/project/maple-tattoo</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/project/maple-tattoo" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en/project/maple-tattoo" />
+  </url>
+
+  <!-- Shastovsky App -->
+  <url>
+    <loc>https://seo.shastovsky.ru/project/shastovsky-app</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://seo.shastovsky.ru/project/shastovsky-app" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://seo.shastovsky.ru/en/project/shastovsky-app" />
+  </url>
+
+</urlset>
