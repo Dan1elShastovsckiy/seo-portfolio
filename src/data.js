@@ -150,9 +150,9 @@ export const content = {
         shortDesc: "Minimalist photography portfolio & travel blog built with React and Express.",
         contentBlocks: [
           { type: 'text', content: "A high-performance, full-stack photography portfolio and travel blog application built with React, Vite, Express, and Firebase. Features a sleek 'Bento-grid' masonry layout, a fully integrated admin dashboard, and automated image optimization." },
-          { type: 'image', src: "assets/portfolio/shastovsky_photo_preview1.webp", caption: "Responsive Bento Grid Gallery" },
+          { type: 'image', src: "/assets/portfolio/shastovsky_photo_preview1.webp", caption: "Responsive Bento Grid Gallery" },
           { type: 'text', content: "Developed an intelligent image upload pipeline: the Express backend utilizes 'multer' and 'sharp' to automatically convert uploads into optimized .webp formats and generate thumbnails. The admin panel includes a built-in file size analyzer and an on-demand recompression feature." },
-          { type: 'image', src: "assets/portfolio/shastovsky_photo_preview2.webp", caption: "Admin Dashboard with Media Analyzer" }
+          { type: 'image', src: "/assets/portfolio/shastovsky_photo_preview2.webp", caption: "Admin Dashboard with Media Analyzer" }
         ],
         stack: ["React 19", "Express.js", "Firebase", "Tailwind CSS", "Vite"],
         link: "https://photo.shastovsky.ru/", // Ссылка на фото-сайт
