@@ -117,6 +117,12 @@ export const content = {
     seoSection: seoTextEn,
     experience: [
       {
+        company: "Ashmanov & Partners",
+        role: "Senior SEO Specialist / Head of GEO",
+        period: "Jan 2026 – Present",
+        description: "Leading enterprise-scale SEO projects and heading the GEO (Generative & Local SEO) division. Developing internal agency protocols, implementing advanced LLM optimization strategies, and maximizing local visibility for top-tier clients.",
+      },
+      {
         company: "Zum Punkt",
         role: "Senior SEO Specialist / Group Head",
         period: "Jan 2023 – Dec 2025",
@@ -152,6 +158,51 @@ export const content = {
         link: "https://photo.shastovsky.ru/", // Ссылка на фото-сайт
         githubLink: "https://github.com/Dan1elShastovsckiy/Shastovsky.photo",
         result: "Built a visually stunning, bilingual, fast-loading photography portfolio with integrated automated media optimization."
+      },
+      {
+        id: "flowwow",
+        title: "Flowwow",
+        category: "Global Marketplace / AEO",
+        image: "/assets/portfolio/flowwow_logo.webp",
+        shortDesc: "GEO & Generative Engine Optimization. +40% visibility in AI assistants.",
+        contentBlocks: [
+          { type: 'text', content: "Spearheading the transition into the AI search era (AEO/LLM optimization) combined with massive Local SEO (GEO) for a global gifting marketplace." },
+          { type: 'image', src: "/assets/portfolio/flowwow_ai_metrics.webp", caption: "Brand visibility dynamics in LLMs" },
+          { type: 'text', content: "Implemented reverse-engineered strategies to get featured in AI-generated summarizations (ChatGPT, Perplexity) and dominated local search packs across multiple regions." },
+          { type: 'image', src: "/assets/portfolio/flowwow_geo.webp", caption: "Local search and map pack domination" }
+        ],
+        stack: ["GEO Strategy", "LLM Optimization", "Enterprise Local"],
+        result: "Achieved an unprecedented >40% growth in brand mention visibility within LLM environments and AI assistants in just 3 months."
+      },
+      {
+        id: "gazprombank",
+        title: "Gazprombank",
+        category: "Enterprise Fintech / Automation",
+        image: "/assets/portfolio/gazprombank_logo.webp",
+        shortDesc: "Complete GEO strategy & Python-based API reporting automation.",
+        contentBlocks: [
+          { type: 'text', content: "Taking charge of the GEO search presence for a major banking network. Managing visibility, reputation, and local SEO ranking factors for thousands of physical touchpoints." },
+          { type: 'image', src: "/assets/portfolio/gazprombank_geo.webp", caption: "Branch network visibility heatmap" },
+          { type: 'text', content: "Beyond GEO optimization, I developed a custom Python automation script to conquer routine reporting. The script seamlessly pulls metrics via Yandex and Google APIs, processes the big data, and automatically generates weekly reports perfectly matched to the strict corporate templates." },
+          { type: 'image', src: "/assets/portfolio/gazprombank_report.webp", caption: "Python reporting pipeline & automated dashboard" },
+          { type: 'text', content: "This engineering approach totally eliminated manual data entry, nullified human error, and saved dozens of hours of routine work every month." }
+        ],
+        stack: ["Local SEO", "Python", "API Integration", "Automation"],
+        result: "Maximized point-of-interest visibility across Yandex/Google and successfully automated 100% of routine client reporting."
+      },
+      {
+        id: "1811stores",
+        title: "1811 Stores",
+        category: "Fashion eCommerce",
+        image: "/assets/portfolio/1811_logo.webp",
+        shortDesc: "Fundamental SEO setup, deep audits, and LLM content automation.",
+        contentBlocks: [
+          { type: 'text', content: "Building a powerful scalable foundation for a fashion brand from the ground up. The initial phase focused heavily on technical health and AI integration." },
+          { type: 'image', src: "/assets/portfolio/1811_strategy.webp", caption: "SEO Strategy & Automation Mindmap" },
+          { type: 'text', content: "Conducted exhaustive tech audits, developed an agile SEO strategy, and crafted sophisticated LLM prompt engineering pipelines for automated, high-quality category content generation." }
+        ],
+        stack: ["Prompt Engineering", "Technical Audit", "eCommerce"],
+        result: "All preparatory and automation systems strictly deployed. The project is fully primed to capture massive traffic in the upcoming fashion seasons."
       },
       {
         id: "seo-control",
@@ -369,6 +420,12 @@ export const content = {
     seoSection: seoTextRu,
     experience: [
       {
+        company: "Ашманов и партнеры",
+        role: "Senior SEO / Руководитель направления GEO",
+        period: "Янв 2026 — Настоящее время",
+        description: "Веду крупные Enterprise-проекты и руковожу развитием направления GEO продвижения (Локальное и Generative SEO). Пишу внутренние регламенты, обучаю команду, выстраиваю процессы оптимизации под AI-помощников.",
+      },
+      {
         company: "Zum Punkt",
         role: "Senior SEO-специалист / Group Head",
         period: "Янв 2023 — Дек 2025",
@@ -404,6 +461,51 @@ export const content = {
         link: "https://photo.shastovsky.ru/",
         githubLink: "https://github.com/Dan1elShastovsckiy/Shastovsky.photo",
         result: "Создано визуально безупречное, двуязычное портфолио с молниеносной загрузкой и полностью автоматизированной backend-оптимизацией медиа-файлов."
+      },
+      {
+        id: "flowwow",
+        title: "SEO & GEO для Flowwow",
+        category: "Global Маркетплейс",
+        image: "/assets/portfolio/flowwow_logo.webp",
+        shortDesc: "Generative SEO. +40% видимости в AI-ответах за 3 месяца.",
+        contentBlocks: [
+          { type: 'text', content: "Реализация передовой стратегии GEO (оптимизация под генеративные нейросети и локальные сервисы) для крупного маркетплейса." },
+          { type: 'image', src: "/assets/portfolio/flowwow_ai_metrics.webp", caption: "Динамика видимости бренда в LLM" },
+          { type: 'text', content: "Адаптировали структуру и семантику под новую эру поиска (AEO). Провели масштабную работу с гео-сущностями, чтобы бренд чаще рекомендовался в ответах ИИ-помощников (ChatGPT, Алиса) и доминировал на картах." },
+          { type: 'image', src: "/assets/portfolio/flowwow_geo.webp", caption: "Доминирование в гео-выдаче" }
+        ],
+        stack: ["Generative SEO", "LLM Insights", "GEO"],
+        result: "Беспрецедентный рост видимости в генеративной выдаче (LLM) и чат-помощниках более чем на 40% всего за квартал."
+      },
+      {
+        id: "gazprombank",
+        title: "GEO & Автоматизация для Газпромбанка",
+        category: "Enterprise Финтех",
+        image: "/assets/portfolio/gazprombank_logo.webp",
+        shortDesc: "Масштабная GEO-стратегия и Python-скрипт автоматизации отчетов по API.",
+        contentBlocks: [
+          { type: 'text', content: "Руководство GEO-стратегией для банковской сети национального масштаба. Оптимизация присутствия тысяч отделений и банкоматов на картографических сервисах и навигаторах." },
+          { type: 'image', src: "/assets/portfolio/gazprombank_geo.webp", caption: "Карта видимости банковской сети" },
+          { type: 'text', content: "Помимо классического маркетинга, я взял на себя техническую оптимизацию бизнес-процессов: написал Python-скрипт, который по API собирает данные из сервисов Яндекса и Google, сводит массивы данных и автоматически формирует еженедельные отчеты строго по сложным корпоративным шаблонам клиента." },
+          { type: 'image', src: "/assets/portfolio/gazprombank_report.webp", caption: "Архитектура Python-скрипта и итоговый отчет" },
+          { type: 'text', content: "Внедрение этого скрипта полностью исключило человеческий фактор (ошибки при копировании из разных кабинетов) и сэкономило команде десятки часов рутинной работы в месяц." }
+        ],
+        stack: ["Local SEO", "Python", "Яндекс/Google API", "Автоматизация"],
+        result: "Адаптация сложной структуры банка к локальному поиску и полная автоматизация рутинной аналитики."
+      },
+      {
+        id: "1811stores",
+        title: "SEO-подготовка 1811stores",
+        category: "Fashion eCommerce",
+        image: "/assets/portfolio/1811_logo.webp",
+        shortDesc: "Глубокий аудит, стратегия и автоматизация контента через LLM.",
+        contentBlocks: [
+          { type: 'text', content: "Фундаментальная подготовка активно растущего fashion-бренда к масштабированию. Этап закладки архитектуры и технических стандартов." },
+          { type: 'image', src: "/assets/portfolio/1811_strategy.webp", caption: "Схема автоматизации формирования контента" },
+          { type: 'text', content: "Проведены полные технические аудиты, сформирована SEO-стратегия и разработана продвинутая система промпт-инжиниринга. Работа с ИИ позволяет генерировать качественный SEO-текст для тысяч листингов без участия копирайтеров." }
+        ],
+        stack: ["Prompt-инжиниринг", "Tech Audit", "Fashion"],
+        result: "Заложен мощный технический и смысловой фундамент; внедрена автоматизация контента. Проект готов к фазе взрывного роста."
       },
       {
         id: "seo-control",
