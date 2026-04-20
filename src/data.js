@@ -137,6 +137,23 @@ export const content = {
     ],
     projects: [
       {
+        id: "shastovsky-photo",
+        title: "Shastovsky.photo",
+        category: "Full-stack / Portfolio",
+        image: "/assets/portfolio/shastovsky_photo_logo.webp",
+        shortDesc: "Minimalist photography portfolio & travel blog built with React and Express.",
+        contentBlocks: [
+          { type: 'text', content: "A high-performance, full-stack photography portfolio and travel blog application built with React, Vite, Express, and Firebase. Features a sleek 'Bento-grid' masonry layout, a fully integrated admin dashboard, and automated image optimization." },
+          { type: 'image', src: "/assets/portfolio/shastovsky_photo_preview1.webp", caption: "Responsive Bento Grid Gallery" },
+          { type: 'text', content: "Developed an intelligent image upload pipeline: the Express backend utilizes 'multer' and 'sharp' to automatically convert uploads into optimized .webp formats and generate thumbnails. The admin panel includes a built-in file size analyzer and an on-demand recompression feature." },
+          { type: 'image', src: "/assets/portfolio/shastovsky_photo_preview2.webp", caption: "Admin Dashboard with Media Analyzer" }
+        ],
+        stack: ["React 19", "Express.js", "Firebase", "Tailwind CSS", "Vite"],
+        link: "https://photo.shastovsky.ru/", // Ссылка на фото-сайт
+        githubLink: "https://github.com/Dan1elShastovsckiy/Shastovsky.photo",
+        result: "Built a visually stunning, bilingual, fast-loading photography portfolio with integrated automated media optimization."
+      },
+      {
         id: "seo-control",
         title: "SEO Control SaaS",
         category: "Development & SEO",
@@ -371,6 +388,23 @@ export const content = {
       }
     ],
     projects: [
+      {
+        id: "shastovsky-photo",
+        title: "shastovsky.photo",
+        category: "Разработка / Portfolio",
+        image: "/assets/portfolio/shastovsky_photo_logo.webp",
+        shortDesc: "Минималистичное портфолио фотографа и тревел-блог на React и Express.",
+        contentBlocks: [
+          { type: 'text', content: "Высокопроизводительное full-stack приложение для портфолио фотографа и блога о путешествиях. Построено на новейшем стеке: React, Vite, Express и Firebase. Реализована стильная галерея в виде адаптивной Bento-сетки, встроенная система мультиязычности и защищенная админ-панель." },
+          { type: 'image', src: "/assets/portfolio/shastovsky_photo_preview1.webp", caption: "Адаптивная Bento-сетка" },
+          { type: 'text', content: "Разработана умная загрузка медиа: бэкенд на Express использует multer и sharp для автоматической конвертации тяжелых фото в формат webp и моментальной генерации миниатюр. В админке встроен анализатор веса файлов и функция их дополнительного принудительного сжатия без критической потери визуального качества." },
+          { type: 'image', src: "/assets/portfolio/shastovsky_photo_preview2.webp", caption: "Интерфейс администратора с анализом веса фото" }
+        ],
+        stack: ["React 19", "Express.js", "Firebase", "Tailwind CSS", "Sharp"],
+        link: "https://photo.shastovsky.ru/",
+        githubLink: "https://github.com/Dan1elShastovsckiy/Shastovsky.photo",
+        result: "Создано визуально безупречное, двуязычное портфолио с молниеносной загрузкой и полностью автоматизированной backend-оптимизацией медиа-файлов."
+      },
       {
         id: "seo-control",
         title: "SaaS сервис SEO Control",
