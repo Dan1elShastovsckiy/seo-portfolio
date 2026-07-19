@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://seo.shastovsky.ru/sitemap.xml
+Sitemap: https://seo.shastovsky.com/sitemap.xml

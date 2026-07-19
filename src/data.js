@@ -155,7 +155,7 @@ export const content = {
           { type: 'image', src: "/assets/portfolio/shastovsky_photo_preview2.webp", caption: "Admin Dashboard with Media Analyzer" }
         ],
         stack: ["React 19", "Express.js", "Firebase", "Tailwind CSS", "Vite"],
-        link: "https://photo.shastovsky.ru/", // Ссылка на фото-сайт
+        link: "https://photo.shastovsky.com/", // Ссылка на фото-сайт
         githubLink: "https://github.com/Dan1elShastovsckiy/Shastovsky.photo",
         result: "Built a visually stunning, bilingual, fast-loading photography portfolio with integrated automated media optimization."
       },
@@ -216,7 +216,7 @@ export const content = {
           { type: 'text', content: "Tech stack: Python (FastAPI), React, Docker, PostgreSQL." }
         ],
         stack: ["Python", "FastAPI", "React", "Docker", "PostgreSQL"],
-        link: "https://seocontrol.shastovsky.ru/",
+        link: "https://seocontrol.shastovsky.com/",
         result: "Automated reporting for 50+ projects, reducing routine check time by 90%."
       },
       {
@@ -302,7 +302,7 @@ export const content = {
           { type: 'image', src: "/assets/portfolio/shastovsky_in2.webp", caption: "Responsive Design" }
         ],
         stack: ["Flutter", "Dart", "Android", "iOS"],
-        link: "https://shastovsky.ru/",
+        link: "https://shastovsky.com/",
         githubLink: "https://github.com/Dan1elShastovsckiy/shastovskyapp/",
         result: "Published open-source code on GitHub demonstrating clean architecture."
       },
@@ -458,7 +458,7 @@ export const content = {
           { type: 'image', src: "/assets/portfolio/shastovsky_photo_preview2.webp", caption: "Интерфейс администратора с анализом веса фото" }
         ],
         stack: ["React 19", "Express.js", "Firebase", "Tailwind CSS", "Sharp"],
-        link: "https://photo.shastovsky.ru/",
+        link: "https://photo.shastovsky.com/",
         githubLink: "https://github.com/Dan1elShastovsckiy/Shastovsky.photo",
         result: "Создано визуально безупречное, двуязычное портфолио с молниеносной загрузкой и полностью автоматизированной backend-оптимизацией медиа-файлов."
       },
@@ -519,7 +519,7 @@ export const content = {
           { type: 'text', content: "Сервис автоматически проверяет 50+ параметров ежедневно и шлет алерты в Telegram." }
         ],
         stack: ["Python", "FastAPI", "React", "Docker", "PostgreSQL"],
-        link: "https://seocontrol.shastovsky.ru/",
+        link: "https://seocontrol.shastovsky.com/",
         result: "Автоматизация отчетности для 50+ проектов, сокращение рутины на 90%."
       },
       {
@@ -607,7 +607,7 @@ export const content = {
           { type: 'image', src: "/assets/portfolio/shastovsky_in2.webp", caption: "Адаптивная верстка" }
         ],
         stack: ["Flutter", "Dart", "Android", "iOS"],
-        link: "https://shastovsky.ru/",
+        link: "https://shastovsky.com/",
         githubLink: "https://github.com/Dan1elShastovsckiy/shastovskyapp/",
         result: "Исходный код опубликован на GitHub."
       },

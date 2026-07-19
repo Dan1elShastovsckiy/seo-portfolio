@@ -8,7 +8,7 @@
 A modern, high-performance **Single Page Application (SPA)** portfolio template built with React and Vite. 
 Designed for Developers and SEO Specialists who need a fast, responsive, and search-engine-friendly resume website.
 
-> **Live Demo:** [seo.shastovsky.ru](https://seo.shastovsky.ru)
+> **Live Demo:** [seo.shastovsky.com](https://seo.shastovsky.com)
 
 ---
 

@@ -2,7 +2,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
-const DOMAIN = 'https://seo.shastovsky.ru';
+const DOMAIN = 'https://seo.shastovsky.com';
 
 export const SeoHead = ({ title, description, lang, type = 'website', path = '' }) => {
   // Убираем лишние слеши
